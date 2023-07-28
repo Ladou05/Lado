@@ -1,0 +1,80 @@
+body {
+    background-image: url("../assets/Sports\ F1\ HD\ Wallpaper\ \(1\).jpeg");
+    background-size: cover;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+  nav li{
+      text-decoration: none;
+    }
+  .navlist{
+      display: flex;
+      margin: 20px;
+      padding-left: 350px;
+      padding-top: 10px;
+  }
+  nav img{
+      position: absolute;
+      top: -10px;
+      padding-left: 40px;
+  }
+  .navlist a{
+      text-decoration: none;
+      padding-left: 90px;
+      color: black;
+      font-size: large;
+      font-family: system-ui;
+  
+  }
+fieldset{
+    background-color:  rgb(202 169 169);
+    padding: 15px 30px 15px 30px;
+    margin-top: 70px;
+    margin-bottom:  100px; ;
+    margin-left:  55% ;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 250px;
+}
+legend{
+    color: rgb(66, 65, 65);
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+label{
+    color: rgb(45, 45, 45);
+    font-family: cursive;
+    font-size: small;
+    font-weight: bold;
+}
+input{
+    padding: 4px;
+    border-radius: 5px;
+    width: 100%;
+}
+label, input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+select{
+    border-radius: 5px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 120px;
+    padding:10px;
+    margin-top: 25px;
+    margin-left: 65px;
+}
+
+button:hover{
+    color: black;
+    background: white;
+}
